@@ -1,0 +1,106 @@
+  {
+    "server_time": "2016-01-01T12:00:00",
+    "promotion_objects": [
+      {
+        "promotion_name": "$1,000,000 Fortune Second-Chance Promotion",
+        "promo_image_url": "images/fortune.jpg",
+        "summary": "Enter for the chance to win the Second-Chance prize of $1,000,000 in the $1,000,000 Fortune Promotion!",
+        "entry_info": "Any non-winning $5 ticket is eligible for entry. Each ticket submitted will result in one (1) entry into the drawing. An unlimited number of qualifying tickets can be entered, but each ticket can only be entered once. You do not need to keep original tickets to claim a second-chance prize. However, once Official Entry Codes have been submitted online, please check the regular drawing results before discarding tickets.",
+        "drawings": [
+          {
+            "entry_deadline": "2016-06-07T23:59:59",
+            "drawing_date": "2016-06-13T12:00:00",
+            "prize": "$10,000 Cash Prize"
+          },
+          {
+            "entry_deadline": "2016-06-20T23:59:59",
+            "drawing_date": "2016-06-26T12:00:00",
+            "prize": "$1,000,000 Cash Prize"
+          }
+        ],
+        "entries": [
+          {
+            "entry_number": "027840217109",
+            "date": "2016-06-07T22:00:00"
+          },
+          {
+            "entry_number": "187554635107",
+            "date": "2016-06-08T09:30:00"
+          },
+          {
+            "entry_number": "314725611824",
+            "date": "2016-06-09T16:45:00"
+          }
+        ]
+      },
+      {
+        "promotion_name": "Millionaire Madness Second-Chance Promotion",
+        "promo_image_url": "images/mmadness.jpg",
+        "summary": "Enter for the chance to win the Second-Chance prize of $1,000,000 in the Millionaire Madness Promotion!",
+        "entry_info": "Any non-winning $2 ticket is eligible for entry. Each ticket submitted will result in one (1) entry into the drawing. An unlimited number of qualifying tickets can be entered, but each ticket can only be entered once. You do not need to keep original tickets to claim a second-chance prize. However, once Official Entry Codes have been submitted online, please check the regular drawing results before discarding tickets.",
+        "drawings": [
+          {
+            "entry_deadline": "2016-05-07T23:59:59",
+            "drawing_date": "2016-05-23T12:00:00",
+            "prize": "$1,000 Cash Prize"
+          },
+          {
+            "entry_deadline": "2016-05-20T23:59:59",
+            "drawing_date": "2016-07-01T12:00:00",
+            "prize": "$10,000 Cash Prize"
+          }
+        ],
+        "entries": [
+          {
+            "entry_number": "875496898312",
+            "date": "2016-05-07T22:00:00"
+          },
+          {
+            "entry_number": "027840217109",
+            "date": "2016-05-08T09:30:00"
+          },
+          {
+            "entry_number": "091830543242",
+            "date": "2016-05-09T16:45:00"
+          }
+        ]
+      },
+      {
+        "promotion_name": "Money Money Millionaire Second-Chance Promotion",
+        "promo_image_url": "images/mmmillionaire.jpg",
+        "summary": "One lucky winner will claim the Second-Chance Prize of $1,000,000 and will become a Money Money Millionaire!",
+        "entry_info": "Any non-winning $5 ticket is eligible for entry. Each ticket submitted will result in one (1) entry into the drawing. An unlimited number of qualifying tickets can be entered, but each ticket can only be entered once. You do not need to keep original tickets to claim a second-chance prize. However, once Official Entry Codes have been submitted online, please check the regular drawing results before discarding tickets.",
+        "drawings": [
+          {
+            "entry_deadline": "2016-06-06T23:59:59",
+            "drawing_date": "2016-06-13T12:00:00",
+            "prize": "$10,000 Cash Prize"
+          },
+          {
+            "entry_deadline": "2016-06-27T23:59:59",
+            "drawing_date": "2016-07-03T12:00:00",
+            "prize": "$30,000 Cash Prize"
+          },
+          {
+            "entry_deadline": "2016-07-01T23:59:59",
+            "drawing_date": "2016-07-25T12:00:00",
+            "prize": "$1,000,000 Cash Prize"
+          }
+        ],
+        "entries": [
+          {
+            "entry_number": "091830543242",
+            "date": "2016-07-07T22:00:00"
+          },
+          {
+            "entry_number": "187554635107",
+            "date": "2016-07-08T09:30:00"
+          },
+          {
+            "entry_number": "875496898312",
+            "date": "2016-07-09T16:45:00"
+          }
+        ]
+      }
+    ]
+  }

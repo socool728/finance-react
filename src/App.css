@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Arial;
+  font-size: 25px;
+}
+
+.t_title {
+  font-size: 18px;
+  font-style: bold;
+  color: #000000;
+}
+
+.img-shadow {
+  width: 100%;
+  /* border: 1px solid; */
+  box-shadow: 7px 7px 20px 3px #888888;
+}
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+td,
+th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.nounderline {
+  text-decoration: none !important;
+}
+.text-danger {
+  display: none;
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 480px) {
+  .text-danger {
+    display: block;
+  }
+
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+  #image {
+    margin-top: 2% !important;
+  }
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .table-active {
+    display: none;
+  }
+
+  #none {
+    display: none;
+  }
+  #change_color {
+    color: #dc3545 !important;
+  }
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  /*
+	Label the data
+	*/
+  td:nth-of-type(1):before {
+    content: "PRIZE";
+  }
+  td:nth-of-type(2):before {
+    content: "ENTRY DEADLINE";
+  }
+  td:nth-of-type(3):before {
+    content: "DRAWING DATE";
+  }
+
+  .entry td:nth-of-type(1):before {
+    content: "ENTRY NUMBER";
+  }
+  .entry td:nth-of-type(2):before {
+    content: "DATE";
+  }
+  body {
+    font-size: 14px;
+  }
+  .ch_margin {
+    margin-top: 15px;
+  }
+}
